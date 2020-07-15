@@ -1,4 +1,4 @@
-# fcc-responsive-web
+# fcc-responsive-web-design
 Code used to learn on the freeCodeCamp Responsive Web Design course
 
 The tasks set at the end of the course are:
