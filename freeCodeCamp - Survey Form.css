@@ -1,0 +1,62 @@
+#title{
+    font-family: helvetica;
+    font-style: italic;
+    font-size: 60px;
+    text-align: right;
+    letter-spacing: 5px;
+    margin: 3% 5% auto auto;
+  }
+  #description{
+    font-family: helvetica;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 3% 10% auto 10%;
+    padding-bottom: 1%;
+    border-bottom: 1px solid grey;
+  }
+  #survey-form{
+    font-family: helvetica;
+    margin: 2%;
+    font-size: 15px;
+  }
+  #name-label, #email-label, #number-label, #DOB-label, #platform-label, #recommend-label, #band-label, #submit-label {
+    display: inline-block;
+    width: 35%;
+    height: 25px;
+    text-align: right;
+    margin: 0% 1.5% 0% 5%;
+    border: 0px solid;
+    vertical-align: middle;
+  }
+  #comments-label, #submit {
+    display: block;
+    text-align: center;
+    margin-top: 1%;
+  }
+  #name, #email, #number, #DOB {
+    margin: 0.5%;
+    width: 25%;
+    height: 25px;
+    padding: 5px;
+    border: 0.5px dashed black;
+    font-size: 15px;
+    color: black;
+  }
+  #platform, #dropdown, #band {
+    margin: 0.5%;
+  }
+  #comments {
+    margin: 0.5% 37%;
+    border: 0.5px dashed black;
+  }
+  #dropdown {
+    border: 0.5px dashed black;
+    height: 35px;
+    width: 26%;
+  }
+  input:focus {
+    background-color: lightblue;
+  }
+  #submit {
+    margin: 0.25% 47%;
+  }

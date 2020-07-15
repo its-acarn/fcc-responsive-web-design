@@ -1,0 +1,43 @@
+#main {
+    background: white;
+  }
+  
+  #title {
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 1000;
+    font-size: 50px;
+    color: black;
+    letter-spacing: 15px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  #img-div{
+    border: 5px solid black;
+  }
+  #image {
+    display: block;
+    max-width: 100%;
+    height: autp;
+    width: auto;
+    opacity: 0.8;
+  }
+  #img-caption {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 12px;
+    font-style: italic;
+    margin: -28px;
+    margin-left: 15px;
+    text-align: left;
+    color: white;
+    opacity: 0.8;
+  }
+  #tribute-info {
+    margin-top: 55px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+  }
+  #tribute-link {
+    font-style: italic;
+  }

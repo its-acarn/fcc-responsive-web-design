@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<link href="freeCodeCamp - Survey Form.css" rel="stylesheet" type="text/css">
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<h1 id="title">music | survey</h1>
+
+<div>
+  <p id="description"><b>We want to know about you and music.</b><br> Over recent years there's been a huge shift from the way we used to listen to music to the way we do now and we want to know about you. The reason we want to do this is because we have an idea that we believe may change the way many of us interact with music in the future. </p>
+  <form id="survey-form">
+    <div>
+      
+      <label id="name-label">Name:</label>
+      <input type="text" placeholder="your name" id="name" required><br>
+    
+      <label id="email-label">Email:</label>
+      <input type="email" placeholder="default@example.com" id="email" required><br>
+    
+      <label id="number-label">Number:</label>
+      <input type="number" placeholder="your phone number" min="0" max="99999999999" id="number"><br>
+      
+      <label id="DOB-label">DOB:</label>
+      <input type="date" id="DOB" placeholder="25/12/2018"><br>
+      
+      <label id="platform-label">What music platform do you have?</label>
+        <input type="radio" value="Spotify"name="platform" id="platform">Spotify
+        <input type="radio" value="Apple Music" name="platform">Apple Music
+        <input type="radio" value="Tidal" name="platform">Tidal
+       <input type="radio" value="Other" name="platform">Other<br>
+      
+      <label id="recommend-label">Would you recommend it?</label>
+      <select id="dropdown">
+        <option></option>
+        <option>YES</option>
+        <option>NO</option>
+      </select><br>
+      
+      <label id="band-label">Who is your favourite band?</label>
+      <input type="checkbox" name="band" value="Arcade Fire" id="band">Arcade Fire
+        <input type="checkbox" name="band" value="Beach House">Beach House
+      <input type="checkbox" name="band" value="War on Drugs">War on Drugs<br>
+      
+     <label id="comments-label">Have you any suggestions for our new app?</label>
+      <textarea rows="5" cols="40" id="comments"></textarea><br>
+      
+      <label id="submit-label"></label>
+      <button id="submit">Submit</button><br />
+    </div>
+  </form>
+</div>
